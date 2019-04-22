@@ -2,8 +2,8 @@
 //  LoginViewController.m
 //  ReactiveCocoaDemo
 //
-//  Created by 于朝盼 on 2019/3/15.
-//  Copyright © 2019 于朝盼. All rights reserved.
+//  Created by slj  on 2019/3/15.
+//  Copyright © 2019 美柚. All rights reserved.
 //
 
 #import "LoginViewController.h"
@@ -17,19 +17,21 @@
 @implementation LoginViewController
 
 
-+ (instancetype)allocWithZone:(struct _NSZone *)zone{
++ (instancetype)allocWithZone:(struct _NSZone *)zone {
     UIViewController *viewController = [super allocWithZone:zone];
     @weakify(viewController)
-    [[viewController
-      rac_signalForSelector:@selector(viewDidLoad)]
-     subscribeNext:^(id x) {
-         @strongify(viewController)
-        [viewController performSelector:@selector(bindViewModel) withObject:nil afterDelay:0];
-     }];
+        [[viewController
+            rac_signalForSelector:@selector(viewDidLoad)]
+            subscribeNext:^(id x) {
+                @strongify(viewController)
+                    [viewController performSelector:@selector(bindViewModel)
+                                         withObject:nil
+                                         afterDelay:0];
+            }];
     return viewController;
 }
 
-- (void) injected {
+- (void)injected {
     [self viewDidLoad];
 }
 - (void)viewDidLoad {
@@ -38,11 +40,11 @@
     [self bindViewModel];
 }
 
-- (void)bindViewModel{
+- (void)bindViewModel {
     @weakify(self);
-    [self.mobileField.rac_textSignal subscribeNext:^(NSString * _Nullable x) {
+    [self.mobileField.rac_textSignal subscribeNext:^(NSString *_Nullable x) {
         @strongify(self);
-        NSLog(@"%@",x);
+        NSLog(@"%@", x);
     }];
 }
 
