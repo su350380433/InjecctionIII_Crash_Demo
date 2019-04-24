@@ -33,38 +33,6 @@
             endingLineNumber = "41"
             landmarkName = "-bindViewModel"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[LoginViewController bindViewModel]"
-                  moduleName = "ReactiveCocoaDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ss/Downloads/ReactiveCocoaDemo-master%203/ReactiveCocoaDemo/Login/Controllers/LoginViewController.m"
-                  timestampString = "577620672.522173"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "19">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[LoginViewController bindViewModel]"
-                  moduleName = "eval101.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ss/Downloads/ReactiveCocoaDemo-master%203/ReactiveCocoaDemo/Login/Controllers/LoginViewController.m"
-                  timestampString = "577620682.752291"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "19">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -73,14 +41,30 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "InjectionIIIHelper.m"
-            timestampString = "577624849.72896"
+            filePath = "ReactiveCocoaDemo/Login/LoginViewController_RACSelectorSignal.m"
+            timestampString = "577627508.8640209"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "injected"
-            landmarkType = "9">
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-injected"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReactiveCocoaDemo/Login/LoginViewController.m"
+            timestampString = "577768991.781559"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "-injectionNotification:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

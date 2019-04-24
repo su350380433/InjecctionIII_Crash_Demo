@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		502384DF226DBFE100A7B048 /* InjectionIIIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 502384DD226DBFE100A7B048 /* InjectionIIIHelper.m */; };
+		502384E2226DE16F00A7B048 /* LoginViewController_RACSelectorSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 502384E1226DE16F00A7B048 /* LoginViewController_RACSelectorSignal.m */; };
+		502384EA226F111A00A7B048 /* InjectionIIIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 502384E6226F111900A7B048 /* InjectionIIIHelper.m */; };
+		502384EB226F111A00A7B048 /* InjectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 502384E7226F111900A7B048 /* InjectionManager.m */; };
+		502384EE226F138400A7B048 /* LoginSucessVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 502384ED226F138400A7B048 /* LoginSucessVC.m */; };
 		7E68B3BC97672426F14E416C /* libPods-ReactiveCocoaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB716130327F223A87A1240 /* libPods-ReactiveCocoaDemo.a */; };
 		C35A45C1223B77090026D1B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C35A45C0223B77090026D1B2 /* AppDelegate.m */; };
 		C35A45C7223B77090026D1B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35A45C5223B77090026D1B2 /* Main.storyboard */; };
@@ -19,16 +22,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03BBFB26FED84D7206B10DCE /* Pods-ReactiveCocoaDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaDemoUITests/Pods-ReactiveCocoaDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		06BE9D833038DF8339CBB19C /* libPods-ReactiveCocoaDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoaDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB716130327F223A87A1240 /* libPods-ReactiveCocoaDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoaDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F468608081211E036B4F1AD /* Pods-ReactiveCocoaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaDemo/Pods-ReactiveCocoaDemo.release.xcconfig"; sourceTree = "<group>"; };
-		502384DD226DBFE100A7B048 /* InjectionIIIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectionIIIHelper.m; sourceTree = "<group>"; };
-		502384DE226DBFE100A7B048 /* InjectionIIIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectionIIIHelper.h; sourceTree = "<group>"; };
-		5C88664E5FD1E1F272D3CA39 /* Pods-ReactiveCocoaDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaDemoTests/Pods-ReactiveCocoaDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		502384E0226DE16F00A7B048 /* LoginViewController_RACSelectorSignal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController_RACSelectorSignal.h; sourceTree = "<group>"; };
+		502384E1226DE16F00A7B048 /* LoginViewController_RACSelectorSignal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController_RACSelectorSignal.m; sourceTree = "<group>"; };
+		502384E6226F111900A7B048 /* InjectionIIIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectionIIIHelper.m; sourceTree = "<group>"; };
+		502384E7226F111900A7B048 /* InjectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectionManager.m; sourceTree = "<group>"; };
+		502384E8226F111900A7B048 /* InjectionIIIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectionIIIHelper.h; sourceTree = "<group>"; };
+		502384E9226F111A00A7B048 /* InjectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectionManager.h; sourceTree = "<group>"; };
+		502384EC226F138400A7B048 /* LoginSucessVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginSucessVC.h; sourceTree = "<group>"; };
+		502384ED226F138400A7B048 /* LoginSucessVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginSucessVC.m; sourceTree = "<group>"; };
 		6849988DA5136E2ED9A0D647 /* Pods-ReactiveCocoaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaDemo/Pods-ReactiveCocoaDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		920C00CF1086F0F0E27F66DF /* libPods-ReactiveCocoaDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoaDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A39C6A3FE04F03B1A710047 /* Pods-ReactiveCocoaDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaDemoUITests/Pods-ReactiveCocoaDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C35A45BC223B77090026D1B2 /* ReactiveCocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35A45BF223B77090026D1B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C35A45C0223B77090026D1B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,7 +46,6 @@
 		C35A460B223B9F100026D1B2 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		C35A460C223B9F100026D1B2 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C35A460D223B9F100026D1B2 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		CB6CC5991B3638D31A079ECE /* Pods-ReactiveCocoaDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaDemoTests/Pods-ReactiveCocoaDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +75,6 @@
 			children = (
 				6849988DA5136E2ED9A0D647 /* Pods-ReactiveCocoaDemo.debug.xcconfig */,
 				2F468608081211E036B4F1AD /* Pods-ReactiveCocoaDemo.release.xcconfig */,
-				5C88664E5FD1E1F272D3CA39 /* Pods-ReactiveCocoaDemoTests.debug.xcconfig */,
-				CB6CC5991B3638D31A079ECE /* Pods-ReactiveCocoaDemoTests.release.xcconfig */,
-				9A39C6A3FE04F03B1A710047 /* Pods-ReactiveCocoaDemoUITests.debug.xcconfig */,
-				03BBFB26FED84D7206B10DCE /* Pods-ReactiveCocoaDemoUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -81,8 +82,10 @@
 		C35A45B3223B77090026D1B2 = {
 			isa = PBXGroup;
 			children = (
-				502384DE226DBFE100A7B048 /* InjectionIIIHelper.h */,
-				502384DD226DBFE100A7B048 /* InjectionIIIHelper.m */,
+				502384E8226F111900A7B048 /* InjectionIIIHelper.h */,
+				502384E6226F111900A7B048 /* InjectionIIIHelper.m */,
+				502384E9226F111A00A7B048 /* InjectionManager.h */,
+				502384E7226F111900A7B048 /* InjectionManager.m */,
 				C35A45BE223B77090026D1B2 /* ReactiveCocoaDemo */,
 				C35A45BD223B77090026D1B2 /* Products */,
 				A786D2A0D63F3CE45C1A1E64 /* Pods */,
@@ -119,6 +122,10 @@
 				C35A460B223B9F100026D1B2 /* LoginViewController.h */,
 				C35A460C223B9F100026D1B2 /* LoginViewController.m */,
 				C35A460D223B9F100026D1B2 /* LoginViewController.xib */,
+				502384E0226DE16F00A7B048 /* LoginViewController_RACSelectorSignal.h */,
+				502384E1226DE16F00A7B048 /* LoginViewController_RACSelectorSignal.m */,
+				502384EC226F138400A7B048 /* LoginSucessVC.h */,
+				502384ED226F138400A7B048 /* LoginSucessVC.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -257,9 +264,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C35A460E223B9F100026D1B2 /* LoginViewController.m in Sources */,
-				502384DF226DBFE100A7B048 /* InjectionIIIHelper.m in Sources */,
+				502384EE226F138400A7B048 /* LoginSucessVC.m in Sources */,
 				C35A45CF223B770B0026D1B2 /* main.m in Sources */,
+				502384EA226F111A00A7B048 /* InjectionIIIHelper.m in Sources */,
+				502384EB226F111A00A7B048 /* InjectionManager.m in Sources */,
 				C35A45C1223B77090026D1B2 /* AppDelegate.m in Sources */,
+				502384E2226DE16F00A7B048 /* LoginViewController_RACSelectorSignal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
